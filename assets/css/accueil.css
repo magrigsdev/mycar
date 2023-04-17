@@ -4,7 +4,28 @@ vertical-align: baseline
 color : #47d3e5
 
 https://fonts.google.com/icons?selected=Material+Icons%3Acheck_circle%3A
-
+font-family: 'Raleway', sans-serif;
 
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*,::after, ::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../pictures/fonds.jpg");
+    background-size: cover;
+    color: aliceblue;    
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
