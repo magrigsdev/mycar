@@ -167,6 +167,7 @@ padding: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .right_one{
@@ -189,3 +190,32 @@ padding: 20px;
     margin-top: 20px;
 }
 
+/* ======= forme ===*/
+
+.right .marque{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+    text-transform: capitalize;
+    font-family:'Raleway', sans-serif; 
+}
+
+.right .marque select{
+    font-size: 0.9rem;
+    padding: 10px 20px 10px 0px;
+    border: #ddd solid 1px;
+    vertical-align: baseline;
+}
+
+.right .marque select option{
+    font-size: 0.9rem;
+    padding-top:10px;
+    
+}
+.right .marque label{
+   font-weight: bold;
+}
+.right .marque select:focus{
+    border: #F5C34B solid 1px;
+}
