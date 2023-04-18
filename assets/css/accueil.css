@@ -14,43 +14,10 @@ font-family: 'Raleway', sans-serif;
 
 
 /* GOOGLE ICONS */
-@font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
-    src: local('Material Icons'),
-      local('MaterialIcons-Regular'),
-      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
-  }
 
 
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
 
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
-}
 /* FIN GOOGLE FONT */
 *,::after, ::before{
     box-sizing: border-box;
@@ -295,4 +262,48 @@ color: black;
 margin: auto;  }
 
 
+/* SECTION +++++++++++++++++++++++++++++++++++++ */
 
+.liste_voitures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 80px 50px 80px;
+    background-color: #FFF;
+    
+}
+
+.liste_voitures img{
+    width: 25vh;
+    padding: 5px;
+}
+
+.liste_items{
+    text-align: center;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.liste_items span{
+    font-family: 'Raleway', sans-serif!important;
+    text-transform: uppercase;
+}
+.liste_items h5{
+    font-family: 'Raleway', sans-serif!important;
+    color: #756b6b;
+}
+
+.liste_items:hover {
+border: #f5c24b77 0.1em solid;
+cursor: pointer;
+transition-duration: 2ms;
+transition-delay: 1ms;
+
+/* padding: 10px; */
+}
