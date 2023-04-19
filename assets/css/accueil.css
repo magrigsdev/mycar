@@ -213,7 +213,7 @@ padding-bottom: 5px;
     
     }
 
-/* ======= forme ===*/
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ POUR FORMES POUR RECHERCHES+++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .right .marque{
     display: flex;
@@ -308,7 +308,8 @@ transition-delay: 1ms;
 /* padding: 10px; */
 }
 
-
+/* VETTES */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ POUR VETTEES  +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .vettes{
     display: flex;
     flex-direction: column;
@@ -316,7 +317,7 @@ transition-delay: 1ms;
     padding: 50px;
     flex-wrap: wrap;
     background-color: #f9f9f9;
-    margin-bottom: 150px;
+    
 }
 .vettes h1{
     font-size: 2em;
@@ -334,6 +335,7 @@ transition-delay: 1ms;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    margin-bottom: 50px;
 
 }
 .vettes_bloc{
@@ -378,3 +380,76 @@ height: 30vh;
     font-family:'Raleway', sans-serif;
     text-transform: capitalize;
 }
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ POUR QUOI NOUS CHOISIR +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.pourquoi{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+        background-color: #FFF;
+          
+}
+
+.pourquoi h1{
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+    font-family:'Raleway', sans-serif; 
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.pourquoi_row{   
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: #FFF; 
+    justify-content: space-between; 
+}
+
+.pourquoi_row .mon_image img{    
+  height: 60vh;
+}
+
+.mon_textes{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: #FFF;   
+    width: 50%;
+}
+    .mon_textes_items{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+        background-color: #FFF; 
+        justify-content: space-between;
+    }
+    .items_bloc{
+        text-align: center;
+        font-family:'Raleway', sans-serif; 
+        font-weight: 200;
+        font-size: 10pt;
+        width: 40%;
+        padding: 10px;
+    }
+
+    .items_bloc p{
+        margin-top: 2px;
+        text-align: justify;
+        color: #756b6b;
+    }
+    .items_bloc h3{
+        margin-bottom: 4px;
+        text-transform: capitalize;
+        
+    }
+
