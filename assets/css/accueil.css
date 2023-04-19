@@ -307,3 +307,73 @@ transition-delay: 1ms;
 
 /* padding: 10px; */
 }
+
+
+.vettes{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+}
+.vettes h1{
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+    font-family:'Raleway', sans-serif; 
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.vettes_liste{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+.vettes_bloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: #9996962d solid 1px;
+    background-color: #FFF;
+}
+.vettes_bloc span{
+    margin-left: 20px;
+    font-size: 1.0em;
+    text-transform: capitalize;
+    font-family:'Raleway', sans-serif; 
+}
+.vettes_bloc i{
+   margin-right: 5px; 
+}
+
+
+.vettes_bloc img{
+height: 30vh;
+}
+
+.vettes_bloc_montant{
+    font-size: 1em;
+    color: #b31054;
+    font-weight: bold;
+}
+
+.vettes_bloc .fas{
+    color: #b31054;
+}
+
+.vettes_bloc h5{
+    color: #4d4548;
+    font-size: 1em;
+    font-family:'Raleway', sans-serif;
+    text-transform: capitalize;
+}
