@@ -316,6 +316,7 @@ transition-delay: 1ms;
     padding: 50px;
     flex-wrap: wrap;
     background-color: #f9f9f9;
+    margin-bottom: 150px;
 }
 .vettes h1{
     font-size: 2em;
