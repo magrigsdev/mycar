@@ -504,7 +504,7 @@ main .score{
     gap: 20px;
     justify-content: space-between;
     text-align: center;
-    font-family: 'Lato';
+    font-family: 'Lato', 'Raleway', sans-serif;
     /* height: 300px; */
     padding: 50px;
     background-size: cover;
@@ -542,4 +542,95 @@ main .score{
 .temoin div {
     color: #485f7f;
 }
+
+
+/* ============================ POPULAIRE LISTE +++++++++ */
+
+.populaire{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px;
+    flex-wrap: wrap;
+    /* background-color: #10b38a02; */
+    
+}
+.populaire h1{
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+    font-family:'Roboto', sans-serif; 
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #b31054;
+}
+
+.populaire_liste{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.populaire_bloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: #9996962d solid 1px;
+    background-color: #FFF;
+
+    box-sizing: border-box;
+}
+.populaire_bloc span{
+    margin-left: 20px;
+    font-size: 1.0em;
+    text-transform: capitalize;
+    font-family:'Raleway', sans-serif; 
+}
+.populaire_bloc i{
+   margin-right: 5px; 
+}
+
+
+.populaire_bloc img{
+height: 30vh;
+}
+
+.populaire_bloc_montant{
+    font-size: 1.3em;
+    color: #b31054;
+    font-weight: bold;
+}
+
+.populaire_bloc .fas{
+    color: #b31054;
+}
+
+.populaire_bloc h5{
+    color: #4d4548;
+    font-size: 1em;
+    font-family:'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+.populaire_bloc hr{
+    width: 100%;
+    height: 1px;
+    background-color: #ddd7d7;
+    border: 0px;
+}
+
+.populaire_bloc .fasv{
+    color: #acb1b0;
+}
+.populaire_bloc .fass{
+    color: #f1f51c;
+}
+
 
