@@ -494,3 +494,52 @@ main .score{
     font-weight: 200;
     text-transform: uppercase;
 } 
+
+/* TEMOIN ++++++++++++++++++++++++++++++++++++++ */
+
+.temoin{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Lato';
+    /* height: 300px; */
+    padding: 50px;
+    background-size: cover;
+    height: 30hv;
+    vertical-align: center;
+    background-color: #f9f9f9;
+}
+
+.temoin p{
+    line-height: 1.5em;
+    color: #485f7f;
+    font-size: 1.2em;
+}
+
+.temoin h1{
+    line-height: 1.5em;
+    color: #485f7f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.temoin .monImage {
+    width: 100%;
+}
+
+.temoin .monImage img {
+    height: 100px;
+}
+.temoin div h3{
+    margin: 10px;
+    color: #485f7f;
+    font-weight: 800;
+}
+
+.temoin div {
+    color: #485f7f;
+}
+
