@@ -62,7 +62,7 @@ nav{
 }
 
 nav .left{
-width: 70%;
+width: 100%;
 }
 
 .items_title .logo_and_text{
@@ -77,7 +77,7 @@ width: 70%;
 }
 
 .items_title .left{
-    width: 40%;
+    width: 100%;
 }
 .logo_and_text span{
 font-size: 1.3em;

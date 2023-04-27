@@ -1,0 +1,24 @@
+
+
+
+/* PHONE */
+
+@media screen and (max-width:720px) {
+    /*CSS code for devices with a maximal width of 720 px */
+    .items_responsive{
+        display: flex;
+        flex-direction: column;  
+        gap: 20px;
+        
+    }
+}
+
+
+
+    @media screen and (min-width:768px) {
+        
+    }
+    
+    
+
+
