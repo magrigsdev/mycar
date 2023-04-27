@@ -215,22 +215,22 @@ padding-bottom: 5px;
 
 /* ============================ POPULAIRE LISTE +++++++++ */
 
-.populaire{
+.catalogue_populaire{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 20px;
     padding: 50px;
     flex-wrap: wrap;
     /* background-color: #10b38a02; */
     
 }
-.populaire h1{
+.catalogue_populaire  h1{
     font-size: 2em;
     justify-content: center;
     text-align: center;
-    font-family:'Roboto', sans-serif; 
+    font-family:'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
     color: #b31054;
 }
 
@@ -254,6 +254,7 @@ padding-bottom: 5px;
     flex-wrap: wrap;
     border: #9996962d solid 1px;
     background-color: #FFF;
+    height: 50vh;
 
     box-sizing: border-box;
 }
@@ -300,4 +301,15 @@ height: 30vh;
 }
 .populaire_bloc .fass{
     color: #f1f51c;
+}
+
+
+.type_voiture {
+     text-transform: uppercase;
+    line-height:60px;
+    /* font-family: 'Nova Oval', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4d4548;  
+    font-size: 2rem;
+    font-weight: 400;
 }
