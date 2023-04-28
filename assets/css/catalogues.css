@@ -248,27 +248,31 @@ padding-bottom: 5px;
 }
 .populaire_bloc{
     max-width: 1300px;
-    height: 300px;
+    height: 320px;
     width: 300px;
-    border: #b31054 solid 1px ;
+    /* border: #b31054 solid 1px ; */
     padding: 5%;
-
-
     box-sizing: border-box; 
 }
+
 .populaire_bloc span{
-    margin-left: 20px;
     font-size: 1.0em;
     text-transform: capitalize;
     font-family:'Raleway', sans-serif; 
 }
 .populaire_bloc i{
    margin-right: 5px; 
+   font-size: 0.8em;
+   margin-bottom: 2%;
+}
+.populaire_bloc .div_i{
+   margin-bottom: 2%;
 }
 
 
 .populaire_bloc img{
-width: 300px;
+    width: 300px;
+   
 }
 
 .populaire_bloc_montant{
@@ -288,10 +292,11 @@ width: 300px;
     text-transform: capitalize;
 }
 .populaire_bloc hr{
-    width: 100%;
+    width: 90%;
     height: 1px;
     background-color: #ddd7d7;
     border: 0px;
+    margin-bottom: 4%;
 }
 
 .populaire_bloc .fasv{
@@ -300,7 +305,6 @@ width: 300px;
 .populaire_bloc .fass{
     color: #f1f51c;
 }
-
 
 .type_voiture {
      text-transform: uppercase;
