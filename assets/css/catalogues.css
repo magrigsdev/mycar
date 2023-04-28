@@ -315,3 +315,71 @@ padding-bottom: 5px;
     font-size: 1.2rem;
     font-weight: 400;
 }
+
+
+.populaire_bloc:hover {
+    border: #b3105418 0.1em solid;
+    cursor: pointer;
+    /* transition-duration: 2ms;
+    transition-delay: 1ms; */
+    
+    /* padding: 10px; */
+    }
+
+
+    
+  footer {
+    display: flex;
+    flex-direction: column;
+   
+    text-align: left;
+    /* gap: 20px; */
+    flex-wrap: wrap; 
+    justify-content: space-between;
+
+    background: #061e41;
+    color: #FFF;
+    font-family:'Lato', sans-serif;
+   
+  }
+  footer h2{
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+  }
+ 
+  footer h5{
+    text-transform: capitalize;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 1.1em;
+
+  }
+
+  footer .fas{
+    font-size: 0.4em;
+    color: #f1f51c;
+  }
+
+  .sub{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+    gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+  .sub2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 40px;
+    justify-content: space-between;
+
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 1.2em;
+  }
