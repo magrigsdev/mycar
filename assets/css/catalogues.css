@@ -239,17 +239,11 @@ padding-bottom: 5px;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fill, 300px);
-    height: auto;
+    height: fit-content;
     justify-content: center;
     margin: 20px auto;
+    gap: 30px;
 
-    /* display: flex;
-    flex-direction: row;
-    gap: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 50px; */
 
 }
 .populaire_bloc{
@@ -257,19 +251,10 @@ padding-bottom: 5px;
     height: 300px;
     width: 300px;
     border: #b31054 solid 1px ;
+    padding: 5%;
 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-    gap: 10px;
-    padding: 10px;
-    flex-wrap: wrap;
-    border: #9996962d solid 1px;
-    background-color: #FFF;
-    height: 50vh;
 
-    box-sizing: border-box; */
+    box-sizing: border-box; 
 }
 .populaire_bloc span{
     margin-left: 20px;
@@ -283,7 +268,7 @@ padding-bottom: 5px;
 
 
 .populaire_bloc img{
-height: 30vh;
+width: 300px;
 }
 
 .populaire_bloc_montant{
@@ -322,7 +307,7 @@ height: 30vh;
     line-height:60px;
     /* font-family: 'Nova Oval', cursive; */
     font-family: 'Josefin Sans', sans-serif;
-    color: #4d4548;  
-    font-size: 2rem;
+    color: #645f61;  
+    font-size: 1.2rem;
     font-weight: 400;
 }
