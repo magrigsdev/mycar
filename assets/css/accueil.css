@@ -1,0 +1,18 @@
+*,::before, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+/* font-family: 'Bruno Ace SC', cursive; */
+
+
+header{
+    background-size: cover;
+    height: 100vh;
+    background-image: url("https://images7.alphacoders.com/719/719801.jpg");
+}
