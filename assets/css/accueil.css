@@ -1,4 +1,4 @@
-*,::before, ::before{
+*, ::before, ::before{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,12 +7,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
 
-/* font-family: 'Bruno Ace SC', cursive; */
+/* font-family: 'Bruno Ace SC', cursive; 
+font-family: 'Jura', sans-serif;
+*/
 
 
 header{
     background-size: cover;
     height: 100vh;
     background-image: url("https://images7.alphacoders.com/719/719801.jpg");
+}
+
+nav{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 100px;
+    background-color: rgba(37, 35, 32, 0.267);
+
+    font-family: 'Lato', sans-serif;   
+}
+
+.nav_items span{
+    font-family: 'Jura', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #f5c34b;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+ ul{
+   
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+/* .sub_titles ul li{
+    display: inline-block;   
+} */
+
+ul li a{
+    text-transform: none;
+    color: ivory;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul .active{
+    color: #f5c34b;
+}
+ul li a:hover{
+    color: #f5c34b;
 }
