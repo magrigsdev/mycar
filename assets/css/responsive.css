@@ -38,11 +38,16 @@
         flex-direction: row;
         flex-wrap: wrap;
     
-        height: 250px;
+        height: fit-content;
         max-height: fit-content;
         justify-content: center;
         gap: 50px;
         background-color: white;
+    }
+
+    .banner a {
+        padding: 10px;
+        height: 160px;
     }
  }
 
@@ -68,8 +73,9 @@
         text-decoration: none;
         color: #1a3760 ;
         font-family: 'Raleway', sans-serif;
-        height: 10vh;
+        height: 160px;
         text-align: center;
+        padding: 10px;
     }
     
 
@@ -116,7 +122,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            max-height: fit-content;
+            /* max-height: fit-content; */
             justify-content: space-between;
             gap: 50px;
             background-color: white;
@@ -126,8 +132,10 @@
             text-decoration: none;
             color: #1a3760 ;
             font-family: 'Raleway', sans-serif;
-            height: 60vh;
+                    
             text-align: center;
+            padding: 10px;
+            height: 160px;
         }
 
         .banner h2{

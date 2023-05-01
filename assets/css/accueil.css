@@ -77,6 +77,7 @@ ul li a:hover{
 
 /* #1a3760 blueu 
    #f4f4f6 gris
+   #f9f9f9 griq autre
 
    https://cdn-icons-png.flaticon.com/512/55/55283.png?w=360  sedan
    https://cdn2.iconfinder.com/data/icons/vehicle-type/1024/hatchback-512.png compact
@@ -125,4 +126,19 @@ ul li a:hover{
 
 .banner a:hover{
     color: #f5c34b;  
+}
+
+/* ================================== VEDETTES ====================================== */
+
+.vedettes{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    height: 250px;
+    max-height: fit-content;
+    justify-content: center;
+    gap: 50px;
+    background-color: #f9f9f9;  
 }
