@@ -127,7 +127,7 @@ ul li a:hover{
 /* ================================== VEDETTES ====================================== */
 
 .vedettes{
-   border-top: 1px solid blueviolet ;
+   
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ ul li a:hover{
     max-height: fit-content;
     justify-content: center;
     gap: 10px;
-    /* background-color: #f9f9f9;  */
+    background-color: #f9f9f9; 
     padding: 40px;  
 
 
@@ -166,7 +166,7 @@ ul li a:hover{
 
 .box_img{
     height:30vh ;
-    border: #f5c34b 1px solid ;
+    border: #5f697354 1px solid ;
     border-radius:10px ;
     -webkit-border-radius:10px ;
     -moz-border-radius:10px ;
@@ -200,9 +200,10 @@ ul li a:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
     color:#5f6973 ;  
+    padding-left: 10px;
 }
 .box_footer span{
     font-size: 1rem;
