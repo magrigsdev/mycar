@@ -62,6 +62,10 @@
     
        
      }
+     .box_img{
+        height:30vh ;
+        border: #5f697354 1px solid ;   
+    }
 
     /* ========== pourquoi ============== */
     .pourquoi h1{
@@ -188,7 +192,7 @@
             }
 
         .pourquoi_row .mon_image img{    
-            height: 35vh;
+            height: 38vh;
         }
         .mon_textes{
             display: flex;
@@ -285,25 +289,9 @@
             height: fit-content;
         }
 
+/* ============== POURQUOI ++++++++++++++++++++ */
+             
 
-        .pourquoi h1{
-            font-size: 2em;
-            justify-content: center;
-            text-align: center;
-            font-family:'Raleway', sans-serif; 
-            text-transform: uppercase;
-            font-weight: 100;
-            }
-
-            .pourquoi_row{   
-                display: flex;
-                flex-direction:column;
-                gap: 20px;
-                padding: 10px;
-                flex-wrap: wrap;
-                background-color: #FFF; 
-                justify-content: space-between; 
-                }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -312,8 +300,7 @@
    
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-     
+        flex-wrap: wrap;     
         justify-content: space-between;
         gap: 10px;
         background-color: #f9f9f9; 
@@ -323,9 +310,111 @@
         width: 100%;
         height: fit-content;
     }
+
+    /* ==================== pourquoi ============= */
+    .pourquoi_row{   
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+        flex-wrap: wrap;
+        background-color: #FFF; 
+        justify-content: space-between; 
+        width: 100%;
+
+        
+        }
+
+        .pourquoi_row .mon_image img{    
+            height: 65vh;
+            }
+
+            .mon_textes{
+                
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px;
+                flex-wrap: wrap;
+                background-color: #FFF;   
+                width: 40%;
+                }
+
+        .mon_textes_items{
+            
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            padding: 10px;
+            flex-wrap: wrap;
+            background-color: #FFF; 
+            justify-content: flex-start;
+
+            width: 100%;
+        }
+
+        .items_bloc{
+            text-align: center;
+            font-family:'Raleway', sans-serif; 
+            font-weight: 200;
+            font-size: 10pt;
+            width:45%;
+            padding: 10px;
+        }
+
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
+     /* ==================== pourquoi ============= */
+     .pourquoi_row{   
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+        flex-wrap: wrap;
+        background-color: #FFF; 
+        justify-content: space-between; 
+        width: 100%;
+
+        
+        }
+
+        .pourquoi_row .mon_image img{    
+            height: 40vh;
+            }
+
+            .mon_textes{
+               
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px;
+                flex-wrap: wrap;
+                background-color: #FFF;   
+                width: 40%;
+                }
+
+        .mon_textes_items{
+           
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            padding: 10px;
+            flex-wrap: wrap;
+            background-color: #FFF; 
+            justify-content: flex-start;
+
+            width: 100%;
+        }
+
+        .items_bloc{
+            text-align: center;
+            font-family:'Raleway', sans-serif; 
+            font-weight: 200;
+            font-size: 10pt;
+            width:45%;
+            padding: 10px;
+        }
 
  }

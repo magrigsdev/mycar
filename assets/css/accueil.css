@@ -144,11 +144,11 @@ ul li a:hover{
 
 .vedettes h1{
     font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 100;
-    color: #1a3760;
+    color:#5f6973 ; ;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     width: 100%;
     padding: 20px;
 
@@ -173,8 +173,7 @@ ul li a:hover{
 
 .box_img{
     height:28vh ;
-    border: #5f697354 1px solid ;
-    
+    border: #5f697354 1px solid ;   
 }
 .box_img img{
     height:18vh;
@@ -223,24 +222,17 @@ ul li a:hover{
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
-    color:#5f6973 ;  
+    color:#5f6973 ;
+    padding-top: 50px;  
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px; 
 
     font-family: 'Raleway', sans-serif;
-}
-
-
-.pourquoi{
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    flex-wrap: wrap;
     background-color: #FFF;
-      
 }
+
+
 
 .pourquoi h1{
 font-size: 2em;
