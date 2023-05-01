@@ -19,7 +19,7 @@
     nav{
         padding: 10px;
         height: fit-content; 
-        display: flexbox;  
+        display: flex;  
         flex-direction: column;
         gap: 10px;
     }
@@ -31,17 +31,69 @@
         text-transform: uppercase;
         text-decoration: none;
     }
+
+    .banner{
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        height: 250px;
+        max-height: fit-content;
+        justify-content: center;
+        gap: 50px;
+        background-color: white;
+    }
  }
 
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
-    header{
-       
+    header{      
         height: 50vh;
     }
+
+    .banner{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: white;
+    }
+
+    .banner a{
+        text-decoration: none;
+        color: #1a3760 ;
+        font-family: 'Raleway', sans-serif;
+        height: 10vh;
+        text-align: center;
+    }
     
+
+    .banner h2{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .banner h3{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-align: center;
+    }
+    .banner h6{
+        font-size: 1.0rem;
+        font-style: italic;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    .banner a:hover{
+        color: #f5c34b;  
+    }
 
 
  }
@@ -58,6 +110,47 @@
         
             font-family: 'Lato', sans-serif;
         } 
+
+        .banner{
+            padding: 70px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-height: fit-content;
+            justify-content: space-between;
+            gap: 50px;
+            background-color: white;
+        }
+
+        .banner a{
+            text-decoration: none;
+            color: #1a3760 ;
+            font-family: 'Raleway', sans-serif;
+            height: 60vh;
+            text-align: center;
+        }
+
+        .banner h2{
+            font-size: 3.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .banner h3{
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            text-align: center;
+        }
+        .banner h6{
+            font-size: 1.2rem;
+            font-style: italic;
+            font-weight: 100;
+            text-align: center;
+        }
+        
+        .banner a:hover{
+            color: #f5c34b;  
+        }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
