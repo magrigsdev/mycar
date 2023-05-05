@@ -108,7 +108,7 @@ ul li a:hover{
     margin-bottom: 20px;
 }
 .banner h3{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 300;
     text-align: center;
@@ -173,7 +173,7 @@ ul li a:hover{
 
 .box_img{
     height:28vh ;
-    border: #5f697354 1px solid ;   
+    /* border: #5f697354 1px solid ;    */
 }
 .box_img img{
     height:18vh;
