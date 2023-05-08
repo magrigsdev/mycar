@@ -121,6 +121,36 @@
                 text-align: center;
                  
             }
+
+            .temoin  .monImage {
+                text-align: center
+            }
+
+            .temoin h1{
+                text-align: center;
+                font-size: 2.5rem;
+                text-transform: capitalize;
+                font-family:'Raleway', sans-serif;
+    
+            }
+
+            .temoin p {
+               font-size: 1.3rem;
+               text-align: center; 
+            }
+            .temoin  .monImage {
+                text-align: center;
+            }
+            .temoin  .monImage img{
+                width: 20vh;
+                text-align: center
+            }
+            .temoin div h3{
+                text-align: center;
+                font-size: 1.3rem;
+                
+                font-family:'Raleway', sans-serif;
+            }
    
  }
 
@@ -241,7 +271,7 @@
             .exp{
                 padding:  20px;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 flex-wrap: wrap;
                 width: 100%;
                 height: fit-content;
@@ -255,10 +285,40 @@
                 text-decoration: none;
                 color: #FFF;
                 font-family: 'Raleway', sans-serif;
-                 width: 100%;  
+                 width: 20%;  
                 max-height: 150px;
                 text-align: center;
                  
+            }
+            .temoin  .monImage {
+                text-align: center
+            }
+
+
+            .temoin h1{
+                text-align: center;
+                font-size: 2.5rem;
+                text-transform: capitalize;
+                font-family:'Raleway', sans-serif;
+    
+            }
+
+            .temoin p {
+               font-size: 1.3rem;
+               text-align: center; 
+            }
+            .temoin  .monImage {
+                text-align: center;
+            }
+            .temoin  .monImage img{
+                width: 20vh;
+                text-align: center
+            }
+            .temoin div h3{
+                text-align: center;
+                font-size: 1.3rem;
+                
+                font-family:'Raleway', sans-serif;
             }
 
 
@@ -345,6 +405,8 @@
             height:20vh;
         }
 
+        
+
 /* ============== POURQUOI ++++++++++++++++++++ */
              
 
@@ -421,7 +483,33 @@
             width:45%;
             padding: 10px;
         }
+        .temoin{
+            padding: 100px;
+        }
 
+        .temoin h1{
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: capitalize;
+            font-family:'Raleway', sans-serif;
+
+        }
+        .temoin  .monImage {
+            text-align: center
+        }
+        .temoin  .monImage img{
+            width: 20vh;
+            text-align: center
+        }
+
+        .temoin div h3, h4{
+            text-align: center;}
+
+            .temoin  p{
+               text-align: center;
+               font-size: 1.5rem;
+            }
+        
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */

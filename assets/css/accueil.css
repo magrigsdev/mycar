@@ -199,6 +199,7 @@ ul li a:hover{
     color: #55b7e9 ;
     text-transform: capitalize;
     margin-bottom: 10px;
+    text-align: left !important;
 }
 
 .box_footer{
@@ -305,7 +306,7 @@ width: 40%;
 .exp{
     padding: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 
     height: 200px;
@@ -321,6 +322,7 @@ width: 40%;
     font-family: 'Raleway', sans-serif;
     height: 30vh;
     text-align: center;
+    
 }
 .exp h2{
     font-size: 2.0rem;
@@ -347,7 +349,7 @@ width: 40%;
 .temoin{
     padding: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 
     height: fit-content;
@@ -357,5 +359,8 @@ width: 40%;
     background-color: beige;
 }
 .temoin  .monImage img{
-    width: 30vh;
+    width: 20vh;
+}
+.temoin div h3, h4{
+    text-align: center;
 }
