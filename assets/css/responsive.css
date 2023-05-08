@@ -238,6 +238,29 @@
                 padding: 10px;
             }
 
+            .exp{
+                padding:  20px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: 100%;
+                height: fit-content;
+                max-height: fit-content;
+                justify-content: center;
+                gap: 10px;
+                background: url("https://images8.alphacoders.com/107/1079983.jpg");
+            }
+
+            .exp span{
+                text-decoration: none;
+                color: #FFF;
+                font-family: 'Raleway', sans-serif;
+                 width: 100%;  
+                max-height: 150px;
+                text-align: center;
+                 
+            }
+
 
  }
 
