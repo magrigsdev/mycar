@@ -151,6 +151,45 @@
                 
                 font-family:'Raleway', sans-serif;
             }
+
+            /* ================== footer================ */
+            .sub{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+            
+                gap: 20px;
+                padding: 20px;
+                flex-wrap: wrap; 
+                justify-content: space-between;
+              }
+              footer h5{
+                text-transform: capitalize;
+                font-family:'Raleway', sans-serif;
+                font-size: 1.0rem;
+                line-height: 1.3rem;
+            
+              }
+
+              footer h2{
+                text-transform: uppercase;
+                font-family: 'Raleway', sans-serif;
+                padding-bottom: 10px;
+              }
+
+              .sub2{
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                gap: 40px;
+                justify-content: space-between;
+            
+                
+                line-height: 1.5em;
+                font-family: 'Raleway', sans-serif;
+                font-size: 1.2em;
+              }
    
  }
 
@@ -328,7 +367,9 @@
 @media (min-width: 992px) and (max-width: 1200px){ 
         
     header{        
-        height: 100vh;
+        height: 100vh;     
+        max-height: fit-content;
+         
         }
         nav{
             font-size: small;        
@@ -413,7 +454,13 @@
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
+    header{        
+        height: 100vh;
+         
+        max-height: fit-content;
+         
+        } 
     .banner a:hover{
         color: #f5c34b;  
     }
@@ -484,7 +531,8 @@
             padding: 10px;
         }
         .temoin{
-            padding: 100px;
+            padding-left: 200px;
+            padding-right: 100px;
         }
 
         .temoin h1{
