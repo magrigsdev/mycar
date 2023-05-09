@@ -1,0 +1,58 @@
+
+header{
+    background-size: cover;
+    height: 100vh;
+    background-image: url("https://images2.alphacoders.com/571/571113.jpg");
+
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 100px;
+    background-color: rgba(5, 2, 2, 0.767);
+
+    font-family: 'Lato', sans-serif; 
+    
+}
+
+@media (max-width: 576px) {
+    header{    
+        height: 30vh;
+        max-height: fit-content;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    nav{
+        padding: 10px;
+        height: fit-content; 
+        display: flex;  
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    ul li a{
+        text-transform: none;
+        color: #ddd;
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+ }
+
+ @media (min-width: 768px) {
+    header{      
+        height: 50vh;
+    }
+  }
+@media (min-width: 992px) and (max-width: 1200px){ }
+@media (min-width: 1200px) {}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
