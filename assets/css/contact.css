@@ -19,6 +19,72 @@ nav{
     
 }
 
+.main{
+  padding: 20px;
+  height: 500px;
+  background-color: #ddd;
+  display: flex;
+
+  flex-direction: column;
+}
+/* ================================= FOOTER ======================================== */
+footer {
+    display: flex;
+    flex-direction: column;
+   
+    text-align: left;
+    /* gap: 20px; */
+    flex-wrap: wrap; 
+    justify-content: space-between;
+
+    background: #061e41;
+    color: #FFF;
+    font-family:'Lato', sans-serif;
+   
+  }
+  footer h2{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: #f1f51c;
+  }
+ 
+  footer h5{
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+
+  }
+
+  footer .fas{
+    font-size: 0.4em;
+    color: #f1f51c;
+  }
+
+  .sub{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+    gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+  .sub2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 40px;
+    justify-content: space-between;
+
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+  }
+
 @media (max-width: 576px) {
     header{    
         height: 30vh;
@@ -45,14 +111,170 @@ nav{
         text-transform: uppercase;
         text-decoration: none;
     }
+
+ 
+ 
+ 
+ /* ====================== FOOTER ++++++++++++ */
+  
+    .sub{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+  
+      gap: 40px;
+      padding: 50px;
+      flex-wrap: wrap; 
+      justify-content: space-between;
+    }
+  
+    .sub2{
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      gap: 40px;
+      justify-content: space-between;
+  
+      text-align: left;
+      line-height: 1.5em;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.2em;
+    }
+  
  }
 
  @media (min-width: 768px) {
     header{      
         height: 50vh;
     }
+    footer {
+      display: flex;
+      flex-direction: column;
+     
+      text-align: left;
+      /* gap: 20px; */
+      flex-wrap: wrap; 
+      justify-content: space-between;
+  
+      background: #061e41;
+      color: #FFF;
+      font-family:'Lato', sans-serif;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      
+     
+    }
+
+    
+    .sub{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+  
+      gap: 40px;
+      padding: 50px;
+      flex-wrap: wrap; 
+      justify-content: space-between;
+    }
+  
+    .sub2{
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      gap: 40px;
+      justify-content: space-between;
+  
+      text-align: left;
+      line-height: 1.5em;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.2em;
+    }
   }
-@media (min-width: 992px) and (max-width: 1200px){ }
-@media (min-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1200px){
+ 
+  .sub{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+  .sub2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 40px;
+    justify-content: space-between;
+
+    text-align: left;
+    line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+  }
+}
+
+/* mon ecran du lenovo */
+@media (min-width: 1300px) {
+  .sub{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+    gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+  .sub2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 40px;
+    justify-content: space-between;
+
+    text-align: left;
+    line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+  }
+ }
+}
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { }
+@media (min-width: 1400px) {
+
+  
+  .sub{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+    gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+  .sub2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 40px;
+    justify-content: space-between;
+
+    text-align: left;
+    line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+  }
+ }
