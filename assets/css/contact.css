@@ -20,13 +20,72 @@ nav{
 }
 
 .main{
-  padding: 20px;
-  height: 500px;
-  background-color: #ddd;
+  padding: 40px;
+  height: 600px;
+  background-color: #FFFF;
   display: flex;
 
-  flex-direction: column;
+  flex-direction: row;
+  margin: auto;
 }
+.c_contact{
+  width: 30%;
+  height: fit-content;
+  font-family: 'Roboto', sans-serif;
+  font-size:1rem ;
+  padding: 20px;
+
+}
+  .c_contact h2{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: #061e41;
+    margin-bottom: 10px;
+  }
+  .c_contact h5{
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #5f6973;
+
+  }
+
+  .c_formulaire{
+    width: 60%;
+    height: fit-content;
+    font-family: "fantasy";
+    font-size:1rem ;
+    border: #061e41 1px solid;
+    padding: 20px;
+  }
+
+  .ligne1, .ligne2, .ligne3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-bottom: 20px;
+  }
+  .ligne_items{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-transform: capitalize;
+    border: #5f6973;
+  }
+
+  .ligne_items label{
+   width: 20%;
+   text-transform: capitalize;
+   font-size: 1.2rem;
+  }
+  .ligne_items input, textarea{
+    width: 60%;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+   }
+ 
+
 /* ================================= FOOTER ======================================== */
 footer {
     display: flex;
@@ -112,9 +171,65 @@ footer {
         text-decoration: none;
     }
 
+ /* ================= main ==================== */
+ .main{
+  padding: 50px;
+  height: fit-content;   
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+.c_contact{
+  width: 100%;
+  height: fit-content;
+  font-family: "fantasy";
+  font-size:1rem ;
+
+}
  
- 
- 
+  .c_formulaire{
+    width: 100%;
+    height: fit-content;
+    font-family: "fantasy";
+    font-size:1rem ;
+
+  }
+  .c_formulaire{
+    width: 100%;
+    height: fit-content;
+    font-family: "fantasy";
+    font-size:1rem ;
+    
+    padding: 20px;
+  }
+  .ligne1, .ligne2, .ligne3, .ligne4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-bottom: 20px;
+  }
+  .ligne_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: capitalize;
+   
+   flex-wrap: wrap;
+  }
+
+  .ligne_items label{
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+   }
+   .ligne_items input, textarea{
+     width: 100%;
+     text-transform: capitalize;
+     font-size: 1.2rem;
+    }
  /* ====================== FOOTER ++++++++++++ */
   
     .sub{
@@ -247,7 +362,7 @@ footer {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
   }
- }
+ 
 }
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
