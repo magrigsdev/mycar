@@ -4,3 +4,69 @@ header{
  background-image: url("https://images5.alphacoders.com/112/1129946.jpg");   
 }
 
+.pourquoi h1{
+   color:#061e41 ;
+}
+
+.mon_textes p {
+   text-align: justify;
+   vertical-align: center;
+   font-size: 1.6rem;
+}
+
+.mon_textes{
+   gap: 30px;
+   justify-content:  baseline;
+}
+
+.vedettes{
+   background-color: #fff;
+}
+.vedettes h1{
+   color: #061e41;
+}
+
+.contain_img{
+
+   justify-content: center;
+   gap: 30px; 
+}
+.box_img{
+   height:40vh ;
+   border-bottom: #5f697354 1px solid ;   
+   margin-bottom: 30px;
+   text-align: center;
+   
+}
+.box_img img{
+   height:30vh;
+   padding-bottom: 10px;
+}
+.box_img h4{
+color: black;
+ text-align: center;  
+ font-weight: 800; 
+   text-transform: capitalize;
+}
+.box_img h5{
+   color: #0346aa !important;
+   text-align: center !important;  
+   
+   }
+
+
+
+
+@media (max-width: 576px) {
+   .box_img{
+      height:30vh ;
+     margin-bottom: 40px;
+      /* border: #5f697354 1px solid ;    */
+   }
+   .mon_textes p {
+      text-align: justify;
+      vertical-align: center;
+      font-size: 1rem;
+   }
+ 
+}

@@ -14,7 +14,7 @@
 /* font-family: 'Bruno Ace SC', cursive; 
 font-family: 'Jura', sans-serif;
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@800&display=swap');
 
 header{
     background-size: cover;
@@ -39,10 +39,11 @@ nav{
 
 }
 
+
 .nav_items span{
-    font-family: 'Caveat', cursive;
+    font-family: 'Advent Pro', sans-serif;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 800;
     color: #f5c34b;
     text-transform: capitalize;
     margin-left: 10px;
@@ -199,7 +200,7 @@ ul li a:hover{
     color: #55b7e9 ;
     text-transform: capitalize;
     margin-bottom: 10px;
-    text-align: left !important;
+    text-align: left ;
 }
 
 .box_footer{
