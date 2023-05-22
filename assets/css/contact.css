@@ -345,6 +345,10 @@ footer {
 
 /* mon ecran du lenovo */
 @media (min-width: 1300px) {
+  header{
+    background-size: cover;
+    height: 100vh;}
+
   .sub{
     display: flex;
     flex-direction: row;
@@ -373,7 +377,9 @@ footer {
 }
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-
+  header{
+    background-size: cover;
+    height: 100vh;}
   
   .sub{
     display: flex;
