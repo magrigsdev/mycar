@@ -41,6 +41,7 @@ nav{
     font-family: 'Raleway', sans-serif;
     color: #061e41;
     margin-bottom: 10px;
+    margin-top: 15px;
   }
   .c_contact h5{
     text-transform: capitalize;
@@ -48,6 +49,7 @@ nav{
     font-size: 1.0em;
     font-weight: bold;
     color: #5f6973;
+    margin-bottom: 5px;
 
   }
 
@@ -85,7 +87,11 @@ nav{
     text-transform: capitalize;
     font-size: 1.2rem;
    }
- 
+ #envoyer{
+  padding: 10px;
+  background-color: #f1f51c;
+  border: #ddd 0px solid;
+ }
 
 /* ================================= FOOTER ======================================== */
 footer {
