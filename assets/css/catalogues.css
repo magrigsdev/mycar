@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
+header{
+    background-image: url("https://images.alphacoders.com/101/1014093.jpg");
+}
+
+
 .contain{
     height: fit-content;
     width: 100%;
@@ -7,7 +12,7 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -17,13 +22,34 @@ main h1{
     font-size: 2rem;
     font-family: 'Raleway', sans-serif !important;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 900;
 
 }
 .car{width: 24%;
-    height: 200px;
+    height: 300px;
     border: 1px solid green;
-    cursor: pointer;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif !important;
+   
+}
+.car img{
+    width: 50%;
+}
+.car h3{
+   text-transform: capitalize;
+   color: darkcyan;  
+}
+.car h4{
+    text-align: left;
+}
+.car a{
+   text-decoration: none;
+   color: crimson;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+.fab{font-weight: bold;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 main{
@@ -36,10 +62,11 @@ main{
     text-transform: capitalize;
 }
 
-.nomination > h1{   
+.nomination  h2{   
     text-transform: capitalize;
     font-family: 'Raleway', sans-serif !important;
-    font-weight: 100;
+    font-weight: 900;
+    
 
 }
 .nombre{
@@ -47,4 +74,53 @@ main{
     text-transform: lowercase;
     font-style: italic;
     font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .contain{
+        height: fit-content;
+        width: 100%;
+        border: 1px solid red;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+
+    .car{width: 100%;
+        height: 200px;
+        border: 1px solid green;
+       
+    }
+}
+
+@media (min-width: 768px) {
+    .car{width: 40%;
+        height: 200px;
+        border: 1px solid green;
+       
+    }     
+}
+
+
+ /* MON PC */
+@media (min-width: 1200px) {
+    .car{width: 24%;
+        height: 200px;
+        border: 1px solid green;
+       
+    }
+}
+
+@media (min-width: 1400px) { 
+    .car{width: 24%;
+        height: 200px;
+        border: 1px solid green;
+       
+    }
 }
