@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    main{
+        background-image: url("https://images3.alphacoders.com/130/1305549.jpg");
+        color: #fff;
+        padding: 50px;
+        background-size: cover;
+        height: 100vh;
+        
+        font-family: 'Raleway', sans-serif;
+    }
+    h3{
+        font-size: 1.9rem;
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-right: 50px;
+        text-transform: capitalize;
+        margin-top: 100px;
+        text-decoration: none;
+        background-color: darkorange;
+        padding: 10px;
+        color: #061e41;
+    }
+    div{
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 10px;
+        background-color:#fff; 
+       
+        display: none;
+    }
+    .sms h3{
+            font-size: 1.1rem;
+            font-family: 'Raleway', sans-serif;
+            text-align: justify;
+            text-transform: capitalize;
+            color: #061e41;
+    }
+
+    header{
+        bottom: 20%;
+        background-color: #061e4196;
+        height: 300px;
+        padding: 50px;
+    }
+
+@media (max-width: 576px){
+            h3{
+            font-size: 1.5rem;
+            font-family: 'Raleway', sans-serif;
+            text-align: justify;
+            text-transform: capitalize;
+        
+            }
+            main{
+
+            background-image: url("https://images3.alphacoders.com/130/1305549.jpg");
+            color: #fff;
+            padding: 50px;
+            background-size: cover;
+            height: 30vh;
+            font-family: 'Raleway', sans-serif;
+        }
+        a{
+        text-decoration: none;
+        font-size: 1.5rem;      
+        text-transform: capitalize;       
+        text-decoration: none;
+        background-color: darkorange;
+        padding: 5px;
+        color: #061e41;
+    }
+    header{
+        bottom: 20%;
+        background-color: #061e4196;
+        height: 200px;
+        padding: 50px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    main{
+
+        background-image: url("https://images3.alphacoders.com/130/1305549.jpg");
+        color: #fff;
+        padding: 50px;
+        background-size: cover;
+        height: 50vh;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;       
+        text-transform: capitalize;       
+        text-decoration: none;
+        background-color: darkorange;
+        padding: 10px;
+        margin-top: 10px;
+        }   
+}
+    
