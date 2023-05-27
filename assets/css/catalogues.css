@@ -42,11 +42,16 @@ main h1{
 .car h4{
     text-align: left;
 }
+
+
 .car a{
-   text-decoration: none;
-   font-weight: bold;
-   text-transform: capitalize;
-}
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: darkcyan; 
+    padding: 5px; 
+   
+ }
 
 
 main{

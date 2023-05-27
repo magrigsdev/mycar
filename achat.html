@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>achat</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+            main{
+                background: #061e41;
+                color: #aaa;
+                padding: 50px;
+                background-size: cover;
+                height: 200px;
+                width: 100%;
+                font-family: 'Raleway', sans-serif;
+            }
+            h3{
+                font-size: 1.9rem;
+                font-family: 'Raleway', sans-serif;
+                text-align: justify;
+                text-transform: capitalize;
+                margin-bottom: 20px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 1.5rem;
+                margin-right: 50px;
+                text-transform: capitalize;
+                margin-top: 40px;
+                text-decoration: none;
+                background-color: darkorange;
+                padding: 10px;
+                color: #061e41;
+            }
+
+            @media (max-width: 576px)
+             {
+                    h3{
+                    font-size: 1.8rem;
+                    font-family: 'Raleway', sans-serif;
+                    text-align: justify;
+                    text-transform: capitalize;
+                
+                    }
+                    main{
+
+                    background: #061e41;
+                    color: #aaa;
+                    padding: 50px;
+                    background-size: cover;
+                    height: 300px;
+                    width: 100%;
+                    font-family: 'Raleway', sans-serif;
+                }
+                a{
+                text-decoration: none;
+                font-size: 1.5rem;
+               
+                text-transform: capitalize;
+               
+                text-decoration: none;
+                background-color: darkorange;
+                padding: 10px;
+                color: #061e41;
+            }
+
+            }
+            div{
+                width: 100%;
+                height: 100px;
+                padding: 10px;
+                font-family: 'Raleway', sans-serif;
+                margin-top: 10px;
+                background-color:#aaa; 
+               
+                display: none;
+            }
+            .sms h3{
+                font-size: 1.2rem;
+                    font-family: 'Raleway', sans-serif;
+                    text-align: justify;
+                    text-transform: capitalize;
+                    color: #061e41;
+            }
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        
+            <h3>voulez vous acheter cette voiture ?</h3>
+                <a href="#" id="oui" >oui</a>
+                <a  href="./catalogue.html" id="retour">retour</a> 
+
+    </main>
+    <div id="sms">
+             <h3>voiture acheter</h3>
+    </div>
+
+    <script>
+        let oui = document.getElementById("oui");
+        oui.addEventListener("click", function() {
+            let sms = document.getElementById("sms");
+            sms.style.display='block';
+            this.style.display='none';
+        })
+    </script>
+</body>
+</html>
